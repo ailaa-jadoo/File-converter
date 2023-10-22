@@ -1,7 +1,7 @@
 
-# File-converter
+# Document-converter
 
-Video Converter is a simple, cross-platform graphical user interface (GUI) application built with Qt and FFmpeg. It allows users to easily convert video files from one format to another, making it a handy tool for video enthusiasts and professionals.
+Document Converter is a user-friendly desktop application built using the Qt framework. It empowers users to seamlessly convert documents between PDF, Word, and text formats. This project is a GUI application and leverages LibreOffice and pdftotext from Xpdf as third-party libraries for document format conversions.
 ## Screenshots
 
 ![App Screenshot](https://github.com/ailaa-jadoo/File-converter/blob/main/image.png?raw=true)
@@ -9,21 +9,22 @@ Video Converter is a simple, cross-platform graphical user interface (GUI) appli
 ![App Screenshot](https://github.com/ailaa-jadoo/File-converter/blob/main/Screenshot%20(1).png?raw=true)
 ## Features
 
-- Intuitive user interface for selecting input and output video files.
-- Supports various input video formats, such as AVI, MKV, MOV, WMV, and FLV.
-- Converts videos to MP4 format with options to control video and audio codecs.
-- Real-time feedback on the conversion process and success/failure status.
+- Convert text documents to PDF format using LibreOffice.
+- Extract text content from PDF files using the pdftotext utility from Xpdf.
+- Simple and intuitive GUI for hassle-free document format selection.
+- Real-time conversion status updates and error reporting.
 
 
 ## How to Use
 
-- Select the input video file using the "Browse" button.
-- Choose the output video file path using the "Browse" button or manually enter it.
-- Click the "Convert" button to start the conversion process.
-- Monitor the progress and receive status updates.
+- Select the source document format (Word / PDF / Text).
+- Choose the desired target format (Word / PDF / Text).
+- Click the "Convert" button to initiate the conversion process.
+- Monitor the conversion status and access the converted documents.
     
 ## Requirements
 
-- Qt framework for the GUI.
-- FFmpeg for video conversion.
+- Qt framework: [Qt Installation](https://www.qt.io/download)
+- LibreOffice: [LibreOffice Download](https://www.libreoffice.org/download/download-libreoffice/)
+- pdftotext (from Poppler utilities): [Poppler Installation](https://www.xpdfreader.com/download.html)
 
